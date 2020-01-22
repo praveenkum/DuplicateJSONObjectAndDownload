@@ -1,0 +1,19 @@
+<hello name="{{ name }}"></hello>
+  <input type="file" id="selectFiles" value="Import" onchange="fileUpl()" /><br />
+
+
+<div style="text-align:center;">
+  <select  id="ddl_key_values" onchange="ddlChangeKeys()"></select>
+  &nbsp;<button id="import">Add</button>
+  <br/>
+  <input type="text" id="txtUpdateKey" onchange="updatedValue(this.value)">
+</div>
+<br/>
+<div style="text-align:center;">
+  <input type="button" value="CreateJSON" onclick="updateJSON()">
+</div>
+
+<a id="downloadAnchorElem" style="display:none"></a>
+<div id="div_form" style="margin-left: 15px;margin-right: 15px;">
+</div>
+<a id="downloadAnchorElem" style="display:none"></a>
