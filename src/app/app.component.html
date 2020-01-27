@@ -4,10 +4,14 @@
 </div>
 
 <div style="text-align:center;">
-  <select  id="ddl_key_values" onchange="ddlChangeKeys()"></select>
+  <select  id="ddl_key_values" onchange="ddlChangeKeys()">
+    <option value="Select" selected>Select</option>
+  </select>
   &nbsp;<button id="import">Add</button>
   <br/>
-  <input type="text" id="txtUpdateKey" onchange="updatedValue(this.value)">
+   <br/>
+  <textarea id="txtUpdateKey" rows="4" cols="50" onchange="updatedValue(this.value)"></textarea>
+  <!--<input type="text" id="txtUpdateKey" onchange="updatedValue(this.value)">-->
 </div>
 <br/>
 <div style="text-align:center;">
